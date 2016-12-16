@@ -1,9 +1,9 @@
 package fcu.iecs.oop.pokemon;
 
 public abstract class Pokemon {
-	protected final String name;
-	protected final PokemonType type;
-	protected int cp;
+	private final String name;
+	private final PokemonType type;
+	private int cp;
 	public Pokemon(String name, PokemonType type, int cp) {
 		this.name = name;
 		this.type = type;
