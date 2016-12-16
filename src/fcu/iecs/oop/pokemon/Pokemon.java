@@ -22,6 +22,6 @@ public abstract class Pokemon {
 		return type;
 	}
 	public abstract void attack();
-
+	public abstract void shout();
 	
 }
